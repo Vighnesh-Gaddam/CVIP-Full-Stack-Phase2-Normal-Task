@@ -32,9 +32,10 @@ header > button {
   color: white;
 }
 
-header > button {
+header > a > button {
   background: #332775;
-  padding: 0.5rem 1rem;
+  color: white;
+  padding: 1rem 1rem;
   position: relative;
   border: 5px solid transparent;
   border-radius: 1.8rem;
@@ -391,7 +392,7 @@ header > button {
   gap:2rem;
 }
 
-.page5>div>.right>#m1,#m2{
+.page5>div>.right>.m1,.m2{
   flex:1;
   justify-content: center;
   padding-left: 5rem;
@@ -402,15 +403,19 @@ header > button {
   font-weight: 500;
 }
 
-#m2{
+.m2{
   padding-bottom:3rem ;
 }
 
 .right input[type="text"]::placeholder {
   color: white;
-}   
+} 
 
-.page5>div>.right>#m2{
+.right input[type="email"]::placeholder {
+  color: white;
+} 
+
+.page5>div>.right>.m2{
   flex:2
 }
 
